@@ -6,7 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Monday Art Club",
-  description: "Lorem ipsum",
+  description:
+    "Monday Art Club is an artist collective based in Indonesia ✦ Web3, Physical, and Beyond",
+  openGraph: {
+    images: "/og-image.png",
+  },
 };
 
 export default function RootLayout({
